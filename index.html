@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chairunisa Portfolio</title>
+    <!-- css bootstraps -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+     <!-- js bootstraps -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Font Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Hey August -->
+    <link href="https://fonts.cdnfonts.com/css/hey-august" rel="stylesheet" />
+    <!--CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+    <!--JS -->
+    <script src="js/index.js"></script>
+    <!-- icon bootstraps -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <section id="welcome">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light sticky-top bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <div class="strong-nav"><strong>Chairunisa</strong></div>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ms-lg-auto">
+                  <li class="nav-item">
+                    <a id="underline" class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="underline" class="nav-link" href="#work">My Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="underline" class="nav-link" href="#contact">Get In Touch</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        <div class="container">
+          <section id="hello">
+            <div id="hello-1" class="row d-flex align-items-center">
+              <div class="col">
+                <div class="row text-center">
+                  <p>
+                    <b class="hello-text"> Hello, </b> </br>
+                    <strong class="chairunisa"> I'm  <span class="chairunisa-color">Chairunisa!</span> </strong>
+                  </p>
+                </div>
+                <div class="row text-center mt-0 mb-0">
+                    <p class="social-link">
+                        <a href="https://www.instagram.com/nisaap07"><i class="bi bi-instagram"></i></a>
+                        <a href="https://github.com/chairunisa07/"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/chairunisa-adistiaputri/"><i class="bi bi-linkedin"></i></a>
+                      </p>
+                </div>
+                <div class="row text-center align-items-center">
+                    <div class="col">
+                      <img src="assets/Group99.png" alt="" style="width: 50%;">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+        </div>
+    </section>
+
+    <section id="know-more">
+        <div class="container">
+                <div class="col">
+                    <div class="row text-center">
+                        <p class="txt-know">
+                            <b>Get To Know More About Me</b>
+                            <a href="#about"><i class="bi bi-caret-down-fill"></i></a>
+                        </p>                          
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div id="about-me" class="row d-flex">
+          <div class="col-md-5">
+            <div id="img-profile" class="text-left mb-2">
+              <img src="assets/profile.png" alt="Profile" class="img-fluid" style="width:80%">
+            </div>
+            <div class="row">
+              <div class="col-sm-9 d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-primary"><i class="bi bi-download" style=" margin-right: 10px;"></i>Download CV</button>
+               </div>
+            </div>
+          </div>
+          <div class="col-md-7 mt-2">
+            <div class="row text-center">
+              <h1><strong>About Chairunisa</strong></h1>
+            </div>
+            <div class="row text-justify">
+              <h3>Chairunisa Adistiaputri or more known as Nisa or Chai was a kid who really love to learn something new. Now she is Electrical Engineering of University Lampung student. She love working on team and being in all parts of creative process. Be able to communicate and think creatively.
+              </h3>
+            </div>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('exp')">Organization Experience</p>
+              <p class="tab-links" onclick="opentab('exp2')">Committee Experience</p>
+            </div>
+
+            <div id="skills" class="tab-contents active-tab">
+              <p><b> Hard Skills </b></p>
+              <ul>
+                <li><span>Graphic Designer</span><br> Designing social media feeds, and create branding for a product</li>
+                <li><span>UI Designer</span><br> Designing Web / App Interface</li>
+                <li><span>Front-End Web Developer </span><br> Designing and implementing the parts of the website that users can see and interact.</li>
+                <a href="#work"> 
+                  <button id="btn-see" type="button" class="btn btn-sm mb-3 " style="background-color: #ff9f29; color: #ffffff;" >See My Work</button>
+                </a>
+              </ul>
+              
+              <p><b> Soft Skills </b></p>
+              <ul>
+                <li>Communication</li>
+                <li>Leadership</li>
+                <li>Team Work</li>
+                <li>Creativity</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+
+            <div id="exp" class="tab-contents">
+              <ul>
+                <li><span>Himatro (2022 - 2023)</span><br> Member Of The Department Of Regeneration And Organizational Development </li>
+                <li><span>Student Council SMA N 1 Gadingrejo (2018 - 2020) </span><br> General Secretary </li>
+                <li><span>Student Council SMA N 1 Gadingrejo (2019 - 2020) </span><br> <li> Designer Graphic Of Instagram @osissmanding </li>
+                  <li>Designer Graphic Of Instagram @exoventsmanding</li</li>
+              </ul>
+            </div>
+
+            <div id="exp2" class="tab-contents">
+              <ul>
+                <li><span>Diklat Orientasi Dasar 2023 (November 2023) </span><br> Event Division </li>
+                <li><span>Electrical Engineering In Action 2023 (October 2023) </span><br> Event Division (Music Concert) </li>
+                <li><span>Selamat Datang Mahasiswa (August - October 2023) </span><br> <li> Secretary </li>
+                <li><span>Electrical Engineering In Action 2022 (September 2022) </span><br> <li> Event Division </li>
+                <li><span>Musyawarah Besar 2022 (April 2022) </span><br> <li> Event Division </li>
+                <li><span>Pemira Himatro 2022 (March 2022) </span><br> <li> Event Division </li>
+                <li><span>Growth Mindset Webinar (October 2021) </span><br> <li> Secretary </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <div class="container mt-4 mb-4">
+        <div id="tool" class="row d-flex align-items-center justify-content-center pt-3 pb-3">
+          <h2 class="text-center"><b>Tools</b></h2>
+          <img src="assets/tools.png" alt="tools" style="width: 90%;" class="align-items-center">
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container mt-4 mb-4">
+        <div id="text-work" class="row d-flex align-items-center justify-content-center pt-3 pb-3">
+          <h2 class="text-center"><strong>My Work</strong></h2>
+        </div>
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-4 mb-4 text-center"> 
+            <a href="graphic_design.html" class="text-decoration-none">
+              <div class="box-work" style="background-color: #ff9f29;" onmouseover="this.classList.add('slide-up-animation')" onmouseleave="this.classList.remove('slide-up-animation')">
+                <img src="assets/graphic-design.png" alt="" style="width: 30%;"> 
+                <p class="pt-3"><b>Graphic Design</b></p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4 text-center"> 
+            <a href="ui_design.html" class="text-decoration-none">
+              <div class="box-work" style="background-color: #ff9f29;" onmouseover="this.classList.add('slide-up-animation')" onmouseleave="this.classList.remove('slide-up-animation')">
+                <img src="assets/ui.png" alt="" style="width: 30%;"> 
+                <p class="pt-3"><b>UI Designer</b></p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4 text-center"> 
+            <a href="front_end.html" class="text-decoration-none">
+              <div class="box-work" style="background-color: #ff9f29;" onmouseover="this.classList.add('slide-up-animation')" onmouseleave="this.classList.remove('slide-up-animation')">
+                <img src="assets/front-end.png" alt="" style="width: 30%;"> 
+                <p class="pt-3"><b>Front-End Web Developer</b></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="get-contact">
+        <div class="container mb-4">
+          <div class="row">
+            <div class="col-md-6" id="info">
+              <div class="row">
+                <div class="text-center mb-2 pt-3">
+                  <h2><i class="bi bi-geo-alt-fill bi-3"></i></h2>
+                  <h3><b>Address</b></h3>
+                  <p>Bandar Lampung, Lampung 35145, Indonesia.</p>
+                </div>
+                <div class="row">
+                  <div class="text-center mb-2">
+                    <h2><i class="bi bi-envelope bi-3"></i></h2>
+                    <h3><b>Email</b></h3>
+                    <p>chairunisaap1@gmail.com</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="text-center mb-2">
+                    <h2><i class="bi bi-telephone bi-3"></i></h2>
+                    <h3><b>Call</b></h3>
+                    <p>+62895-6043-01486</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <form action="#">
+                <div class="input-box">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" autocomplete="off">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email" autocomplete="off">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject" autocomplete="off">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <textarea style="height: 200px;" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary"> <a href="mailto:chairunisaap1@gmail.com" style="color: white; text-decoration: none;">Send Message</a></button>
+                </div>
+              </form>
+            </div>
+            <div class="row text-center mt-4">
+              <p class="social-link">
+                  <a href="https://www.instagram.com/nisaap07"><i class="bi bi-instagram"></i></a>
+                  <a href="https://github.com/chairunisa07/"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/chairunisa-adistiaputri/"><i class="bi bi-linkedin"></i></a>
+                </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+  </body>
+</html>
